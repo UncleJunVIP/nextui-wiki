@@ -2,7 +2,7 @@ site_name: NextUI Wiki
 site_url: https://nextui.games
 repo_url: https://github.com/LoveRetro/NextUI
 repo_name: LoveRetro/NextUI
-copyright: Copyright Creative Commons Attribution-ShareAlike 4.0 International
+copyright: © 2025 NextUI Contributors
 
 theme:
   name: material
@@ -11,6 +11,19 @@ theme:
   font:
     text: Raleway
     code: Fira Code
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: nextui-wiki-light
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: nextui-wiki-dark
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.top
     - navigation.indexes
@@ -19,7 +32,7 @@ theme:
     - navigation.tabs
     - navigation.tracking
     - toc.follow
-    - toc.integrate
+#    - toc.integrate
     - search.suggest
     - content.tooltips
     - content.code.copy
@@ -52,10 +65,13 @@ plugins:
 
 nav:
   - Home: index.md
-  - FAQs:
-      - faq/index.md
-      - Troubleshooting: faq/troubleshooting.md
-  - Using NextUI:
-      - use/index.md
-      - Installation: use/installation.md
-      - Updating: use/updating.md
+  - Getting Started:
+      - getting-started/index.md
+      - Installation: getting-started/installation.md
+      - Adding ROMs: getting-started/roms.md
+  - Configuring:
+      - Updating: configure/updating.md
+  - Support:
+      - support/index.md
+      - Frequently Asked Questions: support/faq.md
+      - Troubleshooting: support/troubleshooting.md
