@@ -1,0 +1,61 @@
+site_name: NextUI Wiki
+site_url: https://nextui.games
+repo_url: https://github.com/LoveRetro/NextUI
+repo_name: LoveRetro/NextUI
+copyright: Copyright Creative Commons Attribution-ShareAlike 4.0 International
+
+theme:
+  name: material
+  logo: _inc/images/logo-nextui-dark.png
+  favicon: _inc/images/favicon.png
+  font:
+    text: Raleway
+    code: Fira Code
+  features:
+    - navigation.top
+    - navigation.indexes
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tracking
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - content.tooltips
+    - content.code.copy
+    - content.code.annotate
+
+extra_css:
+  - _inc/css/custom.css
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/LoveRetro/NextUI
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/HKd7wqZk3h
+
+  urls:
+    discord: https://discord.gg/HKd7wqZk3h
+    github: https://github.com/LoveRetro/NextUI
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      toc_depth: 3
+      permalink: 🔗
+
+plugins:
+  - search
+  - macros
+
+nav:
+  - Home: index.md
+  - FAQs:
+      - faq/index.md
+      - Troubleshooting: faq/troubleshooting.md
+  - Using NextUI:
+      - use/index.md
+      - Installation: use/installation.md
+      - Updating: use/updating.md

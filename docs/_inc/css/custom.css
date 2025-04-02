@@ -1,0 +1,75 @@
+[data-md-color-scheme="nextui-wiki-light"] {
+    /* Primary color shades */
+    --md-primary-fg-color: #111111;
+    --md-primary-bg-color: #eeeeee;
+    --md-primary-bg-color--light: #bbbbbb;
+    /* Accent color shades */
+    --md-accent-fg-color: #9B2256;
+    --md-accent-fg-color--transparent: #cccccc;
+    /* Default color shades */
+    --md-default-fg-color: #111111;
+    --md-default-fg-color--light: #292929;
+    --md-default-fg-color--lighter: #cccccc;
+    --md-default-fg-color--lightest: #cccccc;
+    --md-default-bg-color: #dddddd;
+    --md-default-bg-color--light: #dddddd;
+    --md-default-bg-color--lighter: #dddddd;
+    --md-default-bg-color--lightest: #dddddd;
+    /* Typeset color shades */
+    --md-typeset-color: #111111;
+    /* Typeset `a` color shades */
+    --md-typeset-a-color: #9B2256;
+    /* Typeset `table` color shades */
+    --md-typeset-table-color: #cccccc;
+    --md-typeset-table-color--light: #eeeeee;
+    /* Footer color shades */
+    --md-footer-bg-color: #111111;
+    /* Typeset `kbd` color shades */
+    --md-typeset-kbd-color: #eeeeee;
+    --md-typeset-kbd-accent-color: #dddddd;
+    --md-typeset-kbd-border-color: #bbbbbb;
+    /* Code color shades */
+    --md-code-bg-color: #eee;
+    --md-code-fg-color: #111;
+    --md-code-hl-operator-color: #111;
+    --md-code-hl-variable-color: #111;
+    --md-code-hl-comment-color: #999;
+    --md-code-hl-punctuation-color: #111;
+}
+
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+    font-weight: 700;
+}
+
+.md-typeset h1 {
+    margin: 0 0 0.64em;
+}
+
+.md-typeset h2 {
+    margin: 1em 0 0.64em;
+}
+
+.md-typeset h3 {
+    margin: 0.64em 0 0.8em;
+}
+
+.md-header__inner {
+    padding: 0.4rem 0.2rem;
+}
+
+.md-main__inner {
+    margin-top: 0.5rem;
+    padding-top: 0;
+}
+
+.md-typeset table:not([class]) {
+    font-size: .74rem;
+}
+
+a {
+    font-weight: bold;
+}
+
+.docs-logo {
+    width: 50% !important;
+}
