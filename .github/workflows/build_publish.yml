@@ -27,5 +27,6 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material
+      - run: curl -sSL https://install.python-poetry.org | python3 -
+      - run: poetry install
       - run: mkdocs gh-deploy --force
