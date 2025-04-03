@@ -1,5 +1,4 @@
-<img src="_inc/images/logo-nextui-light.png" alt="NextUI Logo" class="docs-logo docs-logo-light"/>
-<img src="_inc/images/logo-nextui-dark.png" alt="NextUI Logo" class="docs-logo docs-logo-dark"/>
+<img src="_inc/images/brick-nextui-animated.webp" alt="NextUI Animated on TrimUI Brick" class="docs-logo" />
 
 # **This is NextUI**
 

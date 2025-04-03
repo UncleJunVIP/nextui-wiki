@@ -111,10 +111,10 @@ a {
     width: 75% !important;
 }
 
-[data-md-color-scheme="nextui-wiki-light"] .docs-logo-dark {
-    display: none !important;
-}
+/*[data-md-color-scheme="nextui-wiki-light"] .docs-logo-dark {*/
+/*    display: none !important;*/
+/*}*/
 
-[data-md-color-scheme="nextui-wiki-dark"] .docs-logo-light {
-    display: none !important;
-}
+/*[data-md-color-scheme="nextui-wiki-dark"] .docs-logo-light {*/
+/*    display: none !important;*/
+/*}*/
