@@ -31,4 +31,4 @@ jobs:
       - run: poetry env use /usr/bin/python3
       - run: poetry sync
       - run: poetry env activate
-      - run: mkdocs gh-deploy --force
+      - run: poetry run mkdocs gh-deploy --force
