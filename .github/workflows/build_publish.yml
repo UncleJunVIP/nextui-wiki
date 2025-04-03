@@ -28,6 +28,6 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: curl -sSL https://install.python-poetry.org | python3 -
+      - run: poetry env use /usr/bin/python3
       - run: poetry install
-      - run: poetry env use
       - run: mkdocs gh-deploy --force
