@@ -30,4 +30,5 @@ jobs:
       - run: curl -sSL https://install.python-poetry.org | python3 -
       - run: poetry env use /usr/bin/python3
       - run: poetry sync
+      - run: poetry env activate
       - run: mkdocs gh-deploy --force
