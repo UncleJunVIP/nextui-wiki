@@ -6,7 +6,7 @@
     - :octicons-alert-fill-16: Formatting will erase all data from the SD Card. If there is anything important
       on the card please back it up.
 3. Find and unzip `base.zip` that you downloaded from the [GitHub Releases Page]({{ urls.github}}/releases).
-4. Open the unzipped directory and copy `miniui.zip` and the `trimui` directory to the root of your SD Card.
+4. Open the unzipped directory and copy `minui.zip` and the `trimui` directory to the root of your SD Card.
     - :octicons-alert-fill-16: Do not unzip `minui.zip`! Copy it to the root of the SD Card as is.
 5. Eject your SD Card safely from your computer and insert it back into your device.
 6. Power on your device. A screen will display stating NextUI is being installed.
