@@ -37,8 +37,8 @@ Already a NextUI user? Follow our [updating guide](/use/updating) to grab the la
 * Virtual Boy
 * Arcade(CPS, MAME, etc)
 
-## Why does my main menu only show tools and no emulators?
+## Why am I only seeing Tools?
 
-Ensure that you have a `Roms` folder at the root of your SD Card with at least one ROM file loaded in.
+Ensure that you have a `Roms` folder at the root of your SD Card with at least one ROM file.
 
 For more info visit the [add roms](/getting-started/roms) page.
