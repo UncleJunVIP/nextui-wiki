@@ -36,3 +36,9 @@ Already a NextUI user? Follow our [updating guide](/use/updating) to grab the la
 * TurboGrafx-16(and TurboGrafx-CD)
 * Virtual Boy
 * Arcade(CPS, MAME, etc)
+
+## Why does my main menu only show tools and no emulators?
+
+Ensure that you have a `Roms` folder at the root of your SD Card with at least one ROM file loaded in.
+
+For more info visit the [add roms](/getting-started/roms) page.
