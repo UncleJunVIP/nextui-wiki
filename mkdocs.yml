@@ -69,8 +69,11 @@ nav:
       - getting-started/index.md
       - Installation: getting-started/installation.md
       - Adding ROMs: getting-started/roms.md
+      - Required BIOS: getting-started/bios.md
   - Configuring:
       - Updating: configure/updating.md
+      - Installing Paks: configure/installing-paks.md
+      - Theming: configure/theming.md
   - Support:
       - support/index.md
       - Frequently Asked Questions: support/faq.md

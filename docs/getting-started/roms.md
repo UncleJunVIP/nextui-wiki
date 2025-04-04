@@ -1,10 +1,11 @@
 # Adding ROMs
 
 NextUI automatically creates a "Roms" folder at the SD card root containing folders for each console NextUI currently
-supports. 
+supports.
 
 You can rename these folders however you like; however, you must keep the uppercase tag name in parentheses in
-order to retain the mapping to the correct emulator (eg. "Nintendo Entertainment System (FC)" could be renamed to "Nintendo (FC)", "NES (
+order to retain the mapping to the correct emulator (eg. "Nintendo Entertainment System (FC)" could be renamed to "
+Nintendo (FC)", "NES (
 FC)", or "Famicom (FC)").
 
 When one or more folder share the same display name (eg. "Game Boy Advance (GBA)" and "Game Boy Advance (MGBA)") they
@@ -18,9 +19,9 @@ with the same name as the cue file. NextUI will automatically launch the cue fil
 when selected, e.g.
 
 ```
-  Harmful Park (English v1.0)/
-      Harmful Park (English v1.0).bin
-      Harmful Park (English v1.0).cue
+  Tony Hawk's Pro Skater 2 (USA)/
+      Tony Hawk's Pro Skater 2 (USA).bin
+      Tony Hawk's Pro Skater 2 (USA).cue
 ```
 
 For multi-disc games, put all the files for all the discs in a single folder. Then create an m3u file in that folder (
@@ -29,8 +30,8 @@ folder. Instead of showing the entire messy contents of the folder, NextUI will 
 a "Final Fantasy VII" folder structured like this:
 
 ```
-  Policenauts (English v1.0)/
-    Final Fantasy VII (English v1.0).m3u
+  Final Fantasy VII (USA)/
+    Final Fantasy VII (USA).m3u
     Final Fantasy VII (USA) (Disc 1).bin
     Final Fantasy VII (USA) (Disc 1).cue
     Final Fantasy VII (USA) (Disc 2).bin
@@ -84,28 +85,7 @@ name. eg. The 'Collections' folder needs its own map.txt file as well.
   sf2.zip	Street Fighter II
 ```
 
-# Adding BIOS
 
-Some emulators require or perform much better with official bios. NextUI is strictly BYOB. Place the bios for each
-system in a folder that matches the tag in the corresponding "Roms" folder name (eg. bios for "Sony PlayStation (PS)"
-roms goes in "/Bios/PS/"),
-
-Bios file names are case-sensitive:
-
-```
-   FC: disksys.rom
-   GB: gb_bios.bin
-  GBA: gba_bios.bin
-  GBC: gbc_bios.bin
-   MD: bios_CD_E.bin
-       bios_CD_J.bin
-       bios_CD_U.bin
-   PS: psxonpsp660.bin
- MGBA: gba_bios.bin
-  PCE: syscard3.pce
-  PKM: bios.min
-  SGB: sgb.bios
-```
 
 # Adding Cheats
 
@@ -130,59 +110,5 @@ ROM: /Roms/Emulator/game.zip
 Media: /Roms/Emulator/.media/game.png
 ```
 
-# Adding Overlays
 
-> [!IMPORTANT]
-> Overlays are only supported for libretro emulators. Standalone emulators do not support overlays.
 
-NextUI looks for accompanying media for each emulator under the `/Overlays/[System]` folder.
-The `System` corresponds to the name of the Emu Pak specified in your Emulator folder name within parenthesis.
-In this folder you can add 5 overlay PNG files, named overlay1.png to overlay5.png.
-
-For example:
-
-```
-# For /Roms/Game Boy Color (GBA)
-/Overlays/GBA/overlay1.png
-/Overlays/GBA/overlay2.png
-/Overlays/GBA/overlay3.png
-/Overlays/GBA/overlay4.png
-/Overlays/GBA/overlay5.png
-
-# For /Roms/Super Nintendo (SFC)
-/Overlays/SFC/overlay1.png
-/Overlays/SFC/overlay2.png
-/Overlays/SFC/overlay3.png
-/Overlays/SFC/overlay4.png
-/Overlays/SFC/overlay5.png
-```
-
-When in game, hit the `Menu` button and navigate to `Options -> Frontend`. This will display
-an overlay setting to choose between overlay 1 to 5 or none.
-
-# Adding Emulator Icons
-
-Similarly, create .media under the appropriate folders to create icons for Emulator, Collection, Tools and other menu
-items.
-
-For example:
-
-```
-SD_CARD
-├─ .media/
-│  ├─ Collections.png
-│  ├─ Recently Played.png
-├─ Collections/
-│  ├─ .media/
-│  │  ├─ Collection 1.png
-│  │  ├─ Collection 2.png
-├─ Roms/
-│  ├─ .media/
-│  │  ├─ GBA.png
-│  │  ├─ SFC.png
-│  │  ├─ Custom Emulator Name (GBC).png
-│  │  ├─ etc...
-├─ Tools/
-│  ├─ .media/
-│  │  ├─ tg5040.png
-```
