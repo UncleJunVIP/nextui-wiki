@@ -26,7 +26,7 @@ It features a rebuilt emulation engine and tons of added features outlined below
 
 - Fixed both screen tearing and sync stutter problems of MinUI by rebuilding the emulator engine core
 - Game switcher menu (Onion OS style) by [@frysee](https://github.com/frysee)
-- High audio quality, due to advanced resampling engine
+- High quality audio, due to advanced resampling engine
   using [libsamplerate](https://github.com/libsndfile/libsamplerate) (with quality/performance setting per emulator)
 - Much lower latency (average 20ms, 1 frame of 60fps)
 - Game art/media support
@@ -40,6 +40,7 @@ It features a rebuilt emulation engine and tons of added features outlined below
 - Menu animations
 - LED control, change colors, effects, brightness
 - LED indicators, low battery, stand by, charging (brightness can be set seperately)
+- Haptic feedback in the menu by [@ExonakiDev](https://github.com/exonakidev)
 - Ambient LED mode, the LEDS act like Ambient light TV's for extra immersion, configurable per emulator
 - Screen color temperature and brightness controls
 - Deep Sleep mode, gives instant ON and avoids the overheat bug on the Brick
